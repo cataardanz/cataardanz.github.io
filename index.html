@@ -1,0 +1,57 @@
+<!-- El código CSS debe contener al menos 3 selectores que hagan referencia a clases
+El código CSS debe contener al menos 2 selectores que hagan referencia a elementos de la página a través de su id--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <title>Catalina Ardanz - Portfolio </title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="header"> 
+            <img src="img.jpeg" alt="imagen" id="img">
+            <h1> ¡Hola, Soy Catalina! </h1>
+        </div>  
+    </header>
+    
+    <nav> 
+        <div class="principal_buttons">
+            <h2> <a href="#about">SOBRE MI</a></h2>
+            <h2> <a href="#contact">CONTACTO</a></h2>
+        </div>
+    </nav>
+
+    <main>
+        <h2 id="about">SOBRE MI</h2> 
+       <p> Bienvenidos a todos ¡Este es mi primer portfolio web! 
+            <br> En este momento me encuentro cursando Jóvenes a programar, mi primer experiencia en programación. Hace unos años (y como autodidacta) empecé a indagar en el diseño y en front-end, este mundo está lleno de información así que decidí inscribirme en este curso para tener un poco de guía y como inicio para seguir formándome en este campo. 
+            <br> Aquí habrá más información :) 
+        </p>
+    </main>    
+       
+    <section>
+        <h2 id="contact">¡Mantengámonos en contacto!</h2>
+        <form>
+            <p>Nombre: </p>
+            <input type="text" name="name" class="input">
+            <p>Email:</p>
+            <input type="email" name="email" class="input">
+            <p>Déjame aquí tu mensaje:</p>
+            <textarea id="msg" name="user_msg" rows="6" class ="message"></textarea> <br>
+            <button type="button" id="button_contact">Enviar datos</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
+
+
